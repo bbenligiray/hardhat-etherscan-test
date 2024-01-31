@@ -1,0 +1,54 @@
+{
+  "address": "0xb370349C20Ac536631E6bC694D5029ce9B3cA0fd",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "MY_VARIABLE",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x1f4c8c0463ae19968d9cd1e2a9aaef7c205e22b0fdc0019cc3792a31523fc4fd",
+  "receipt": {
+    "to": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+    "from": "0x07b589f06bD0A5324c4E2376d66d2F4F25921DE1",
+    "contractAddress": null,
+    "transactionIndex": 0,
+    "gasUsed": "80500",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xffba851c432daefa864be961ae950be6ad65404509fe195d3ac920c63e30eb9a",
+    "transactionHash": "0x1f4c8c0463ae19968d9cd1e2a9aaef7c205e22b0fdc0019cc3792a31523fc4fd",
+    "logs": [],
+    "blockNumber": 582,
+    "cumulativeGasUsed": "80500",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "70aa2eed377ef46fac4320d961081c3e",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"MY_VARIABLE\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/MyContract.sol\":\"MyContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":1000},\"remappings\":[]},\"sources\":{\"contracts/MyContract.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.17;\\n\\ncontract MyContract {\\n    uint256 public constant MY_VARIABLE = 123;\\n}\\n\",\"keccak256\":\"0xc053f6ed3a9bfaadf607b24a9f43bcfd06edf48ee6a8f58525fe2678c0b2a704\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50607c8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638383f88414602d575b600080fd5b6034607b81565b60405190815260200160405180910390f3fea26469706673582212207532a82dfed6b88a2aa1201c3dcd3d045a220c5a9195c907aa3c6a0b1778daad64736f6c63430008110033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638383f88414602d575b600080fd5b6034607b81565b60405190815260200160405180910390f3fea26469706673582212207532a82dfed6b88a2aa1201c3dcd3d045a220c5a9195c907aa3c6a0b1778daad64736f6c63430008110033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}
